@@ -1,12 +1,20 @@
-var sum = 0;
+function fib() {
+	var a = 0;
+	var b = 1;
 
-function fib(first, second, limit) {
-	if( first < limit ) {
-		if( first%2 == 0 ) sum += first;
-		fib(second, first+second, limit--);
+	return function() {
+		var tot = a + b;
+		a = b;
+		b = tot;
+		return tot;
 	}
 }
 
-fib(1, 2, 4000000);
+var sum = 0;
+var next = fib();
+
+for(var i = 0; i < 4000000; i = next()) {
+	if(i%2 == 0) sum += i;
+}
 
 console.log(sum);
