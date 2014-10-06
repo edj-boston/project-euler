@@ -6,11 +6,7 @@ These are answers to the [Project Euler](https://projecteuler.net/) problems in 
 
 [Golang](go)
 ------
-[Go](https://golang.org/) is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-
-Go is an open source project developed by a team at Google and many contributors from the open source community.
-
-Go is distributed under a BSD-style license.
+[Go](https://golang.org/) is an open source programming language that makes it easy to build simple, reliable, and efficient software. Go is an open source project developed by a team at Google and many contributors from the open source community. It is distributed under a BSD-style license.
 
 
 [JavaScript](javascript)
